@@ -5,6 +5,6 @@ public record FoodItemDTO(Long id,
                           String itemDescription,
                           Boolean isVeg,
                           Long price,
-                          Integer restaurantId,
+                          Long restaurantId,
                           Integer quantity) {
 }

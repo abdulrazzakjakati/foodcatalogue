@@ -23,7 +23,7 @@ public class FoodItem {
 
     private Long price;
 
-    private Integer restaurantId;
+    private Long restaurantId;
 
     @Column(nullable = false, columnDefinition = "INT DEFAULT 0")
     private Integer quantity;
