@@ -8,7 +8,7 @@ pipeline {
         GITOPS_BRANCH         = 'master'
         MANIFEST_PATH         = "helm/restaurant-microservices-project/food-catalogue-service/values.yaml"
         SONAR_PROJECT_KEY     = 'com.codeddecode:foodcatalogue'
-        SONAR_URL             = 'http://140.245.14.252:9092'
+        SONAR_URL             = 'http://140.245.14.252:9000'
         COVERAGE_THRESHOLD    = '50.0'
 
         DOCKERHUB_CREDENTIALS = credentials('DOCKER_HUB_CREDENTIAL')
