@@ -46,5 +46,5 @@ springdoc:
     path: /v3/api-docs
 
 server:
-  port: 9094
+  port: 9092
 
